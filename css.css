@@ -29,8 +29,7 @@ body {
 	height: 600px;
 	width: 1200px;
 	margin-top: 100px;
-	background-color: white;
-	opacity: 0.7;
+	background: rgba(255, 255, 255, 0.7);
 	border-radius: 30px;
 	box-shadow: 5px 10px 10px black;
 
@@ -58,10 +57,19 @@ body {
 }
 .container img {
 		
-
+	opacity: 0.7;
     width:auto;
     height:300px;
 
+}
+
+#xelor {
+	 transform: scaleX(-1);
+	 padding-right: 200px;
+}
+
+ img:hover {
+  opacity: 1;
 }
 
 
@@ -69,3 +77,4 @@ footer {
 	color: white;
 	margin-top: 20px;
 }
+
