@@ -1,0 +1,114 @@
+body {
+ background-image: url("pic2.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #008000;
+  color: white;
+  font-size: 20px;
+  
+
+}
+
+nav ul li {
+	float:right;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+#logo {
+	font-size: 30px;
+	font-family: "papyrus";
+}
+
+.content h1 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-family: comic sans ms;
+}
+
+.content img{
+	width: 300px;
+	height: auto;
+
+}
+.flex-container{
+	display: flex;
+	justify-content: center;
+	padding: 100px;
+
+}
+
+.dofus {
+	padding-right: 100px;
+}
+
+
+footer ul li {
+
+    font-family: "Arial";
+    font-size: 12px;
+    margin: 0;
+    padding: 2;
+    text-align: left;
+    list-style-type: none;
+
+
+
+}
+   
+
+
+
+footer{
+	height: 200px;
+	width: 100%;
+	float: left;
+	background : #010005;
+	position: absolute;
+	right: 0;
+	left: 0;
+	color:white;
+	flex-shrink: 0;
+
+}
+
+.foot1, .foot2 ,.foot3
+{
+	position: relative;
+	
+	width: 33%;
+	display: inline-block;
+	float: left;
+}
+.foot4{
+	display: inline-block;
+	width: 100%;
+	font-family: "papyrus";
+
+}
+
+.foot2 img{
+	width: 100px;
+	height: auto;
+
+}
