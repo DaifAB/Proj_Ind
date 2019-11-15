@@ -34,12 +34,36 @@ li a:hover {
   background-color: black;
 }
 
+.content {
+	height: 100%;
+	width: 1200px;
+
+	
+}
+.content1 {
+	height: 100%;
+	width: 1200px;
+	text-align: left;
+	padding: 20px;
+
+
+	
+	background: rgba(255, 255, 255, 0.7);
+}
+
+#pala{
+
+	width: 1200px;
+	height: 100%;
+
+}
+
 #logo {
 	font-size: 30px;
 	font-family: "papyrus";
 }
 
-.content h1 {
+ h1 {
 	color: white;
 	text-align: center;
 	font-size: 50px;
